@@ -19,6 +19,41 @@ body{
   background-color: lightgray;
 }
 #cloud{
-  height: 500px;
-  width: 600px;
+  padding-top: 10px;
+  height: 430px;
+  width: 800px;
+}
+@keyframes example{
+  0% {
+    color: red;
+    transform: rotate(0) translate3D(-50%, -50%, 0);
+    
+  }
+ 
+
+ 
+
+}
+h1{
+  margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 48px;
+	line-height: 42px;
+  text-transform: uppercase;
+  color: black;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+.css-typing{
+margin: 0.8em 0 0.5em 0;
+color: #333;
+font-weight: normal;
+font-family: 'Orienta', sans-serif;
+font-size: 20px;
+text-align: left;
+line-height: 40px;
 }
