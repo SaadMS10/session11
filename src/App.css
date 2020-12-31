@@ -111,11 +111,14 @@ box-sizing: border-box;
 .site-footer
 {
   background-color:#26272b;
-  
+
   font-size:15px;
-  height: 30px;
+  height: 77px;
  
   color:#737373;
+}
+.copyright-text{
+  margin-top: 30px;
 }
 
 .site-footer a
@@ -150,8 +153,10 @@ box-sizing: border-box;
   margin-bottom:0;
   list-style:none
 }
+
 .social-icons li
 {
+  text-decoration: black;
   display:inline-block;
   margin-bottom:4px
 }
@@ -164,6 +169,7 @@ box-sizing: border-box;
   font-size:13px
 }
 .social-icons a{
+  text-decoration: none;
   background-color:#eceeef;
   color:#818a91;
   font-size:16px;
@@ -196,7 +202,8 @@ box-sizing: border-box;
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  /* background-color:#00aced */
+  background-color:green;
 }
 .social-icons a.linkedin:hover
 {

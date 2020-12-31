@@ -14,6 +14,7 @@ function RouteConfig() {
           <NavBar />
             <Switch>
                 <Route exact path="/" component={Home}/>
+                <Route  path="/about" component={About}/>
              
                 <Route exact path="/product" component={Product}/>
                 <Route path="/product/:id" component={ProductItem}/>
