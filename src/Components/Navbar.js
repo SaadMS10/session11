@@ -8,6 +8,9 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
  
+  root:{
+    position:"sticky"
+  },
   bar:{
     paddingLeft: "5%",
     textDecoration: "none"
