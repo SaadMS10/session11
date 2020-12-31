@@ -227,7 +227,8 @@ box-sizing: border-box;
   font-weight: bold;
   font-family: 'Raleway';
   text-align: left;
-  padding-left: 60px;
+  padding-left: 60px; 
+  
   padding-right: 60px;
     margin-block-start: 1em;
     margin-block-end: 1em;
