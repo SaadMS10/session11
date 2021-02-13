@@ -11,13 +11,22 @@ body{
 }
 .productContainer > .link {
   text-align: center;
-  width: 300px;
-  box-shadow: 0 0 10px #463636;
-  margin: 10px;
+  width: 250px;
+	margin-left:40px;
+	 border: 2px solid gray;
+    border-radius: 7px;
+    padding: 15px;
+		float:left;
+	margin-top: 30px;
 }
 
 .productContainer > .link:hover {
   background-color: lightgray;
+}
+.link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #07b39b;
 }
 #cloud{
   padding-top: 10px;
@@ -30,6 +39,7 @@ body{
     transform: rotate(0) translate3D(-50%, -50%, 0);
     
   }
+  
  
 
  
@@ -49,21 +59,7 @@ h1{
   animation-iteration-count: 1;
 	text-shadow: 0 2px white, 0 3px #777;
 }
-/* .css-typing{
-margin: 0.8em 0 0.5em 0;
-color: #333;
-font-weight: normal;
-font-family: 'Orienta', sans-serif;
-font-size: 20px;
-text-align: left;
-line-height: 40px;
-padding : 1em;
-width: 100%;
-height: 200px;
-box-sizing: border-box;
 
-
-} */
 #box {
   display: flex;
   align-items: center;
@@ -95,6 +91,17 @@ box-sizing: border-box;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
 }
+
+.about-p {
+  
+  background: white;
+  color: #007bb6;
+  
+  font-size: 25px;
+padding-top: 50px;
+
+}
+
 
 
 @keyframes animatedgradient {

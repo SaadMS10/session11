@@ -11,9 +11,9 @@ function ProductItem() {
 
     return (
         <div>
-            <h1>Welcome to Product Item</h1>
+            <h1>{shoe.name}</h1>
             <div className="link">
-                <h4>{shoe.name}</h4>
+               
                 <img src={shoe.img} height={500} alt="shoe" />
                 
             </div>

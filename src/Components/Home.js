@@ -1,6 +1,5 @@
 import React from 'react';
 import useWebAnimations from "@wellyshen/use-web-animations";
-import jordan from './113677.jpg';
 import home  from './home.jpg';
 import Footer from "./Footer.js"
 
@@ -8,7 +7,7 @@ function Home() {
 	
 
 	
-	const {ref,playState } = useWebAnimations({
+	const {ref } = useWebAnimations({
 		keyframes: [
 			
 			{ transform: 'translate(600px,0)' },
@@ -17,10 +16,9 @@ function Home() {
 		  
 		],
 		timing: {
-		//  delay: 500, // Start with a 500ms delay
+
 		  duration: 800, // Run for 1000ms
-		 // iterations: 2, // Repeat once
-		 // direction: "alternate", // Run the animation forwards and then backwards
+	
 		  easing: "ease-in-out", // Use a fancy timing function
 		},
 	
@@ -36,7 +34,7 @@ function Home() {
   return (
 	<div>
 		
-		<img src={home} ref={ref} id="cloud" />
+		<img src={home} ref={ref} alt="shoes" id="cloud" />
 		<h1 id="head ">Volt Gold </h1>
 		<div className="gradient-border" id="box">
 	<p >This fresh take on the classic Air Jordan 1 pulls design cues from previous AJ1 colorways 
