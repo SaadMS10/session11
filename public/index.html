@@ -31,6 +31,23 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script> 
+      if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("%PUBLIC_URL%/sw.js") // service worker file location
+      .then(function() {
+        console.log("Service Worker Registered Successfully");
+      })
+      .catch(function(error) {
+        console.error("Something goes wrong while registering service worker");
+        console.log(error);
+      });
+  } else {
+    console.log("Service Worker is not available");
+  }
+      
+      
+      </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
